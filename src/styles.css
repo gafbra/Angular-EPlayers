@@ -37,3 +37,18 @@ body {
     font-family: "Roboto-Regular";
     background-color: #1e1c21;;
 }
+
+.container {
+    max-width: 1200px;
+}
+.container-grid {
+    max-width:  1200px;
+    margin: 0 auto;
+    /* border: 3px solid salmon; */
+}
+
+@media all and (max-width: 1199px){
+    .container .container-grid {
+        max-width: 980px;
+    }
+}
